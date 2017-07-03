@@ -2,7 +2,10 @@
 
 This project build by descjop v0.7.0
 
-FIXME: description
+This is a sample color picker.
+
+![screenshot of color picker](color-picker.png?raw=true)
+
 
 ## Requirements
 
@@ -115,9 +118,9 @@ run `descjop-init` (windows user should use `descjop-init-win`) alias below.
 ```
 $ lein descjop-init
  ...
- 
+
 Running "download-electron" task
- 
+
 Done, without errors.
 ```
 
@@ -126,9 +129,9 @@ Done, without errors.
 ```
 $ lein descjop-init-win
  ...
- 
+
 Running "download-electron" task
- 
+
 Done, without errors.
 ```
 
@@ -273,7 +276,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         "download-electron": {
             version: "1.3.2", // change Electron version 1.3.2 -> 1.3.3
-            outputDir: "./electron", 
+            outputDir: "./electron",
             rebuild: true
         }
     });
