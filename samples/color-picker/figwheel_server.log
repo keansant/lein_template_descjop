@@ -1,0 +1,96 @@
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 2.246 seconds.[0m
+notifying browser that file changed:  app/dev/js/front.js
+notifying browser that file changed:  app/dev/js/out_front/goog/deps.js
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.496 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.504 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.462 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.424 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.596 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.637 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.605 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[36m----  Compiler Warning on   src_front/hello_desc2_front/core.cljs   line:8  column:46  ----[0m
+
+  [1mWrong number of args (2) passed to cljs.core/assoc[0m
+
+  [36m 4[0m  [36m(defonce state (atom {:message "Hello Reagent world"}))[0m
+  [36m 5[0m  [36m[0m
+  [36m 6[0m  [36m(defn root-component [][0m
+  [36m 7[0m  [36m  [:h1 (:message @state)[0m
+  [33m 8[0m  [1m   [:select {:on-change (fn [x](swap! state #(assoc :message (-> % .-target .-value))))} [0m
+  [0m  [0m  [33m                                             ^--- Wrong number of args (2) passed to cljs.core/assoc[0m
+  [36m 9[0m  [36m    [:option "red"][0m
+  [36m10[0m  [36m    [:option "blue"][0m
+  [36m11[0m  [36m    [:option "yellow"]][0m
+  [36m12[0m  [36m   [:p "with hahaha!"]])[0m
+
+[36m----  Compiler Warning : Please see src_front/hello_desc2_front/core.cljs  ----[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.636 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.472 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.476 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.5 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.557 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.533 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.529 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.5 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.501 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.678 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.513 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.467 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.423 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.433 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.455 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.559 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.486 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
+[0mCompiling "app/dev/js/front.js" from ["src_front" "src_front_profile/hello_desc2_front/dev"]...[0m
+[32mSuccessfully compiled "app/dev/js/front.js" in 0.473 seconds.[0m
+notifying browser that file changed:  app/dev/js/out_front/hello_desc2_front/core.js
